@@ -305,6 +305,11 @@ header .icons div:hover{
 
 /* Speciality section*/
 
+.speciality {
+
+    margin-top:20vh;
+}
+
 .speciality .box-container{
 
     display: flex;
@@ -483,6 +488,8 @@ header .icons div:hover{
     flex-wrap: wrap;
     gap: 1.5rem;
     padding: 1rem 0;
+    margin-top:5vh; 
+
 }
 
 .steps .box{
@@ -522,11 +529,13 @@ header .icons div:hover{
     flex-wrap: wrap;
     gap: 1.5rem;
     border-radius: .5rem;
+
 }
 
 .order .row .image{
     flex: 1 1 30rem;
 }
+
 .order .row .image img{
     
     width: 100%;
